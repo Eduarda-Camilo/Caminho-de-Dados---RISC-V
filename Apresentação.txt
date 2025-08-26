@@ -1,0 +1,9 @@
+Apresentação
+
+cd C:\Users\eduarda.camilo\Desktop\UFOP\tp2-oac
+
+Gerar binário 
+
+iverilog -o sim testbench.v caminho_dados_riscv.v unidade_controle.v ula.v banco_registradores.v memoria_dados.v memoria_instrucoes.v extensor_imediato.v
+
+vvp sim
